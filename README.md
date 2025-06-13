@@ -122,6 +122,19 @@ g++ client.cpp -o client -lws2_32
 ```bash
 ./client
 ```
+### Alternatif Kompilasi pada server:
+
+```bash
+cd bin
+.\server.exe
+```
+
+### Alternatif Kompilasi pada client:
+
+```bash
+g++ src/client.cpp -Iinclude -o bin/client.exe  -lws2_32
+./client                                                          
+```
 
 ---
 
