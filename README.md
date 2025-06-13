@@ -138,9 +138,3 @@ g++ client.cpp -o client -lws2_32
 ```
 
 ---
-
-## 6. Catatan Tambahan
-
-* Server dapat menerima data dari banyak client jika dikembangkan lebih lanjut.
-* Program dapat dikembangkan lebih lanjut untuk menyimpan data ke file atau database.
-* Tugas periodik dapat diatur interval waktunya dengan `std::this_thread::sleep_for()`.
